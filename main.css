@@ -5,17 +5,32 @@
 }
 
 body{
-    font-family: 'Red Hat Mono', monospace;
+    font-family: 'Roboto Mono', monospace;  
+    background-color: black;
+    color: ghostwhite;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 header{
-    font-family: 'Nixie One', cursive;
-    background-color: orangered;
+    font-family: 'Anonymous Pro', monospace;
+    background-color: #ff5900;
     color: black;
+}
+
+body h2{
+    font-family: 'Anonymous Pro', monospace;
+    color: snow;
+    font-size: 32px;
 }
 
 header nav li{
     display: inline;
+    margin-bottom: 8px;
     margin-left: 16px;
     font-size: 18px;
 }
@@ -25,10 +40,10 @@ header nav li a{
     text-decoration: none;
 }
 
-.container{
-    max-width: 1280px;
-    width: 100%;
-    margin: 0 auto;
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 header .container{
@@ -36,3 +51,15 @@ header .container{
     align-items: center;
     justify-content: space-between;
 }
+
+header img{
+    width: 164px;
+    top: 0px;
+    left: 0px;
+}
+
+.head-logo{
+    align-items: center;
+    display: flex;
+}
+
