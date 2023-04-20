@@ -29,7 +29,7 @@ header h1{
 }
 
 header nav li{
-    display:inline-flex;
+    display: inline-flex;
     margin-bottom: 8px;
     margin-left: 16px;
     font-size: 22px;
@@ -52,10 +52,16 @@ header nav li a:hover{
 }
 
 header .container,
-section .container{
+section .container,
+footer .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+footer{
+    padding: 16px 0;
+    background-color: black;
+    color: #ecf0f1;
 }
 
 body h2{
@@ -86,11 +92,23 @@ section #about-home-page{
 
 section .container{
     align-items: flex-start;
+    justify-content: space-between;
 }
 
 section h2,
-section h3{
+section h3,
+section h4,
+section p{
     margin-bottom: 12px;
+}
+
+#services-lobby-lobby{
+    padding-bottom: 0;
+}
+
+#services li{
+    padding: 2px 0;
+    margin-left: 16px;
 }
 
 .social-links img{
@@ -99,6 +117,8 @@ section h3{
 
 .social-links li{
     align-items: inline;
+    display: inline;
+    margin-right: 16px;
 }
 
 .social-links li a{
@@ -111,4 +131,42 @@ section h3{
 
 #services-lobby{
     display: block;
+}
+
+.social-links ul{
+    display: inline;
+}
+
+.services-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+#services .container{
+    display: block;
+}
+
+.services-list div{
+    margin-right: 8px;
+}
+
+footer .container{
+    align-items: flex-start;
+}
+
+footer h3{
+    margin-bottom: 7px;
+}
+
+#contacts a{
+    color: snow;
+    text-decoration: none;
+}
+
+#contacts a:hover{
+    text-decoration: underline;
+}
+
+#contacts ul li::marker{
+    marker: none;
 }
