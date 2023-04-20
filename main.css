@@ -1,3 +1,7 @@
+@font-face {font-family: "TacticSans-Reg"; 
+    src: url("//db.onlinewebfonts.com/t/28c0ba929947563500b21da15a88c6fe.eot"); src: url("//db.onlinewebfonts.com/t/28c0ba929947563500b21da15a88c6fe.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/28c0ba929947563500b21da15a88c6fe.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/28c0ba929947563500b21da15a88c6fe.woff") format("woff"), url("//db.onlinewebfonts.com/t/28c0ba929947563500b21da15a88c6fe.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/28c0ba929947563500b21da15a88c6fe.svg#TacticSans-Reg") format("svg"); }
+
 *{
     margin: 0;
     padding: 0;
@@ -5,9 +9,40 @@
 }
 
 body{
-    font-family: 'Roboto Mono', monospace;  
-    background-color: black;
-    color: ghostwhite;
+    font-family: "TacticSans-Reg";
+}
+
+header{
+    padding: 16px 0;
+    font-family: "TacticSans-Reg";
+    background-color: #ff5900;
+    font-weight: normal;
+}
+
+section{
+    padding: 24px;
+}
+
+header h1{
+    font-weight: 900;
+    font-size: 34px;
+}
+
+header nav li{
+    display:inline-flex;
+    margin-bottom: 8px;
+    margin-left: 16px;
+    font-size: 22px;
+}
+
+header nav li a{
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+header nav li a:hover{
+    color: #ecf0f1;
+    text-decoration: underline;
 }
 
 .container{
@@ -16,23 +51,17 @@ body{
     margin: 0 auto;
 }
 
-header{
-    font-family: 'Anonymous Pro', monospace;
-    background-color: #ff5900;
-    color: black;
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 body h2{
-    font-family: 'Anonymous Pro', monospace;
-    color: snow;
+    font-family: "TacticSans-Reg";
     font-size: 32px;
-}
-
-header nav li{
-    display: inline;
-    margin-bottom: 8px;
-    margin-left: 16px;
-    font-size: 18px;
+    margin-bottom: 16px;
 }
 
 header nav li a{
@@ -46,20 +75,40 @@ header .container{
     justify-content: space-between;
 }
 
-header .container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.fox-logo{
+    max-width: 256px;
+    margin-right: 32px;
 }
 
-header img{
-    width: 164px;
-    top: 0px;
-    left: 0px;
+section #about-home-page{
+    display: block;
 }
 
-.head-logo{
-    align-items: center;
-    display: flex;
+section .container{
+    align-items: flex-start;
 }
 
+section h2,
+section h3{
+    margin-bottom: 12px;
+}
+
+.social-links img{
+    height: 24px;
+}
+
+.social-links li{
+    align-items: inline;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+.social-links li a:hover{
+    text-decoration: underline;
+}
+
+#services-lobby{
+    display: block;
+}
