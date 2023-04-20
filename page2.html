@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Requisiar um serviço</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>JavaFox Systems</h1>
+            <a href="./index.html">Home Page</a>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <h2>Solictar um serviço da JavaFox</h2>
+            <p>
+            Preencha o formulário abaixo, com as respectivas informações para requisitar um serviço
+            </p>
+            <div id="formulario"><img src="./images/FB_IMG_1679171835813.jpg" alt="">
+                <form action="">
+                    <input type="radio" required name="servico-solicitado"> <label id="" for="">Criação ou Hospedagem de bots</label><br>
+                    <input type="radio" required name="servico-solicitado"> <label id="" for="">FullStack Support</label><br>
+                    <input type="radio" required name="servico-solicitado"> <label id="" for="">Java Devolopment</label> <br><br>
+                    <label for="nome-empresa">Empresa solicitante</label><br>
+                    <input id="nome-empresa" required type="text" placeholder="Nome da empresa"/>
+                    <br><br>
+                    <label for="nome">Seu nome</label><br>
+                    <input id="nome" required type="text"placeholder="Seu nome"/>
+                    <br><br>
+                    <label for="email">Seu email</label><br>
+                    <input id= "email" required type="email" placeholder="Seu email">
+                    <br><br>
+                    <label for="tel-req">Adicione telefone para contato</label><br>
+                    <input id="tel-req" required type="tel" placeholder="Seu telefone">
+                    <br><br>
+                    <label for="adicionar-arquivo">Adicione os arquivos requeridos conforme informado anteriormente</label><br>
+                    <input id="adicionar-arquivo" required type="file"><br>
+                    <br>
+                    <label for="detalhes">Insira todos os detalhes do pedido no campo de texto abaixo</label><br>
+                    <textarea name="" id="detalhes" cols="30" rows="10" placeholder="Detalhe sobre cada arquivo inserido, locais, IDs, mensagens de sistema e UI desejada"></textarea>
+                    <br>
+                    <input type="checkbox" required id="checkbox termos"> 
+                    <label for="checkbox termos">Li e aceito os termos</label>
+                    <br>
+                    <button type="submit">
+                        Enviar
+                    </button>
+                    <button type="reset">
+                        Limpar
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div id="nos-acompanhe">
+                <h3>Nos acompanhe</h3>
+                <ul class="social-links">
+                    <li>
+                        <a href="#" title="Siga-nos no instagram">
+                            <img src="./images/instagram.png" alt="Instagram logo">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Siga-nos no facebook">
+                            <img src="./images/facebook.png" alt="facebook logo">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="contacts">
+                <h3>Contatos</h3>
+                <ul>
+                    <li>
+                        <a href="tel:11312342369">+55 (11) 91234-2369</a>
+                    </li>
+                    <li>
+                        <a href="mailto:javafoxsystems@gmail.com">Entre em contato por e-mail</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3>Venha até nós</h3>
+                <p>
+                    Av. JavaScript n° 124, Vila HTML - São Paulo - SP
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

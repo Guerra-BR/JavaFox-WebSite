@@ -167,6 +167,27 @@ footer h3{
     text-decoration: underline;
 }
 
-#contacts ul li::marker{
-    marker: none;
+
+header a{
+    color: snow;
+    text-decoration: none;
+    font-size: 22px;
+}
+header a:hover{
+    text-decoration: underline;
+}
+
+form{
+    padding: 16px;
+}
+
+
+
+#formulario{
+    display: flex;
+    align-items: flex-start;
+}
+
+section img{
+    max-width: 400px;
 }
